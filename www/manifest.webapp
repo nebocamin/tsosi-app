@@ -13,6 +13,6 @@
     "url": "http://gnubox.org"
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/manifest.appcache",
+  "appcache_path": "/tsosi/manifest.appcache",
   "default_locale": "en"
 }
