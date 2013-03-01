@@ -1,18 +1,18 @@
 {
   "version": "0.1",
-  "name": "tsosi-app",
-  "description": "the secret of smiley island as app",
-  "launch_path": "/webdav/tsosi-app/www-built/index.html",
+  "name": "tsosi",
+  "description": "the secret of smiley island",
+  "launch_path": "/webdav/tsosi/index.html",
   "icons": {
-    "16": "/webdav/tsosi-app-stub-0.1.0/www-built/img/icons/mortar-16.png",
-    "48": "/webdav/tsosi-app-stub-0.1.0/www-built/img/icons/mortar-48.png",
-    "128": "/webdav/tsosi-app-stub-0.1.0/www-built/img/icons/mortar-128.png"
+    "16": "/tsosi/img/icons/mortar-16.png",
+    "48": "/tsosi/img/icons/mortar-48.png",
+    "128": "/tsosi/img/icons/mortar-128.png"
   },
   "developer": {
     "name": "stereo",
     "url": "http://gnubox.org"
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
+  "appcache_path": "/manifest.appcache",
   "default_locale": "en"
 }
