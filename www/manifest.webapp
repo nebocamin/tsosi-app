@@ -2,7 +2,7 @@
   "version": "0.1",
   "name": "tsosi",
   "description": "the secret of smiley island",
-  "launch_path": "/webdav/tsosi/index.html",
+  "launch_path": "/tsosi/index.html",
   "icons": {
     "16": "/tsosi/img/icons/mortar-16.png",
     "48": "/tsosi/img/icons/mortar-48.png",
