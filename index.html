@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+<head>
+    <title>stereo - the secret of smiley island — Play</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="stereo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="interpreter/glkote.css" type="text/css">
+    <link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="interpreter/dialog.css" type="text/css">
+<script src="interpreter/glkote.min.js" type="text/javascript"></script>
+<script src="interpreter/quixe.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+game_options = {
+use_query_story: false,
+set_page_title: false,
+inspacing: 0,     // gap between windows
+outspacing: 0     // gap between windows and edge of gameport
+};
+</script>
+
+<script src="interpreter/the secret of smiley island.gblorb.js" type="text/javascript"></script>
+
+<script>
+var manifestLocation = "http://nebocamin.github.io/tsosi-app/manifest.webapp"; 
+var installRequest = navigator.mozApps.install(manifestLocation);
+
+installRequest.onsuccess = function(data) {
+    // App installed successfully!
+};
+
+installRequest.onerror = function(err) {
+    // App couldn't be installed!
+    console.log("Install error!");
+};
+
+</script>
+
+
+</head>
+<body class="play">
+<div id="header"><div id="subheader">
+</div></div>
+
+<div id="column"><div id="subcolumn">
+<div class="container">
+
+<div id="gameport">
+<div id="windowport">
+<noscript><hr>
+<p>You'll need to turn on Javascript in your web browser to play this game.</p>
+<hr></noscript>
+</div>
+<div id="loadingpane">
+<img src="interpreter/waiting.gif" alt="LOADING"><br>
+<em>&nbsp;&nbsp;&nbsp;Loading...</em>
+</div>
+<div id="errorpane" style="display:none;"><div id="errorcontent">...</div></div>
+<div id="layouttestpane">
+This should not be visible
+<div id="layouttest_grid" class="WindowFrame GridWindow"><div id="layouttest_gridline" class="GridLine"><span id="layouttest_gridspan" class="Style_normal">12345678</span></div><div id="layouttest_gridline2" class="GridLine"><span class="Style_normal">12345678</span></div></div>
+<div id="layouttest_buffer" class="WindowFrame BufferWindow"><div id="layouttest_bufferline" class="BufferLine"><span id="layouttest_bufferspan" class="Style_normal">12345678</span></div><div id="layouttest_bufferline2" class="BufferLine"><span class="Style_normal">12345678</span></div></div>
+</div>
+</div>
+
+</div>
+</div></div>
+
+<div id="footer"><div id="subfooter">
+</div></div>
+</body>
+</html>
+

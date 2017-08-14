@@ -1,0 +1,34 @@
+CACHE MANIFEST
+# ralfs version
+
+Cover.jpg
+Cover.png
+Small Cover.jpg
+build.txt
+css/app.css
+css/install-button.css
+favicon.ico
+iFiction.xml
+img/glyphicons-halflings-white.png
+img/glyphicons-halflings.png
+img/icons/mortar-128.png
+img/icons/mortar-16.png
+img/icons/mortar-48.png
+index.html
+interpreter/dialog.css
+interpreter/glkote.css
+interpreter/glkote.min.js
+interpreter/quixe.min.js
+interpreter/the secret of smiley island.gblorb.js
+interpreter/waiting.gif
+js/app.js
+js/init.js
+js/lib/require.js
+manifest.webapp
+style.css
+
+# catch-all for anything else
+NETWORK:
+*
+http://*
+https://*

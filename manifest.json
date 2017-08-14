@@ -1,0 +1,25 @@
+{
+  "name": "the secret of smiley island",
+  "short_name": "tsosi",
+  "icons": [{
+        "src": "/tsosi-app/img/icons/mortar-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }, {
+        "src": "/tsosi-app/img/icons/mortar-152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      }, {
+        "src": "/tsosi-app/img/icons/mortar-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }, {
+        "src": "/tsosi-app/img/icons/mortar-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "/tsosi-app/index.html",
+  "display": "fullscreen",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}

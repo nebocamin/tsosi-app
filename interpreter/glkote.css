@@ -1,0 +1,124 @@
+
+#windowport {
+  width: 100%;
+  height: 100%;
+}
+#errorpane {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: #FF4040;
+  padding-bottom: 5px;
+}
+#errorcontent {
+  padding: 8px;
+  text-align: center;
+  background: #FFA0A0;
+}
+#loadingpane {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20%;
+}
+#layouttestpane {
+  position: absolute;
+  visibility: hidden;
+  top: 0px;
+  
+  left: -1000px;
+}
+.WindowFrame {
+  
+  position: absolute;
+  margin: 0px;
+  background: white;
+}
+.BufferWindow {
+  overflow: scroll;   
+  overflow-x: hidden; 
+  font-family: "Fira sans","feura sans", Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 6px 10px 6px 10px;
+}
+.BufferLine {
+}
+.GridWindow {
+  background: #D0D0C0;
+  overflow: hidden;
+  font-family: monaco, andale mono, lucidatypewriter, courier, courier new, monospace; 
+  font-size: 12px;
+  padding: 6px 10px 6px 10px;
+}
+.GridLine {
+  white-space: pre; 
+}
+.InvisibleCursor {
+  
+  position: relative;
+  padding-bottom: 14px;
+}
+.MorePrompt {
+  
+  font-weight: bold;
+  position: absolute;
+  background: #603010;
+  color: #FFFFCC;
+  opacity: 0.5;
+  padding: 2px 6px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.Input {
+  
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  outline-width: 0px;
+  outline-style: none;
+  background: none;
+  font-weight: bold;
+}
+.BufferWindow .Input {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+}
+.GridWindow .Input {
+  font-family: monaco, andale mono, lucidatypewriter, courier, courier new, monospace; 
+  font-size: 12px;
+}
+.Style_normal {
+}
+.Style_emphasized {
+  font-style: italic;
+}
+.Style_preformatted {
+  font-family: monaco, andale mono, lucidatypewriter, courier, courier new, monospace;
+}
+.Style_header {
+  font-weight: bold;
+}
+.BufferWindow .Style_header {
+  font-size: 15px;
+}
+.Style_subheader {
+  font-weight: bold;
+}
+.Style_alert {
+  font-weight: bold;
+}
+.Style_note {
+  font-style: italic;
+}
+.Style_blockquote {
+  background: #FFF0C0;
+}
+.Style_input {
+  font-weight: bold;
+  color: #300000;
+}
+.Style_user1 {
+}
+.Style_user2 {
+}

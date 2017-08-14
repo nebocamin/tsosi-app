@@ -1,0 +1,361 @@
+
+body
+{
+	font-family: "Feura Sans", Georgia, Palatino, "Times New Roman", Times, serif;
+	font-size: 100%;
+	-webkit-text-size-adjust: none;
+	margin: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: white;
+	color: black;
+}
+#pageheader {
+	width: 100%;
+	top: 0px;
+	height: 2px; 
+	margin: 0px;
+	background: #EEE; 
+}
+#header {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	height: 2px; 
+	margin: 0px;
+	background: #EEE; 
+}
+#subheader {
+	position: relative;
+	width: 100%; 
+	height: 100%;
+	margin: auto;
+	
+}
+#pagefooter {
+	width: 100%;
+	height: 4px; 
+	margin: 0px;
+	margin-top: 2em;
+	background: #EEE; 
+}
+#footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	height: 4px; 
+	margin: 0px;
+	background: #EEE; 
+}
+#subfooter {
+	position: relative;
+	width: 100%; 
+	height: 100%;
+	margin: auto;
+	
+}
+.framelabel {
+	padding-top: 1em;
+	font-size: 14px;
+	font-style: italic;
+}
+#pagecolumn {
+	width: 100%;
+	top: 2px; 
+	margin: 0px;
+}
+#column {
+	position: absolute;
+	width: 100%;
+	top: 2px; 
+	bottom: 4px; 
+	margin: 0px;
+}
+#subcolumn {
+	position: relative;
+	width: 100%; 
+	height: 100%;
+	margin: auto;
+}
+.container
+{
+}
+p
+{
+	font-size: 1em;
+	line-height: 1.4;
+}
+a
+{
+	text-decoration: none;
+	color: #369;
+}
+a:visited
+{
+	text-decoration: none;
+	color: #006;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #33C;
+}
+.coverimage
+{
+	margin-top: 3em;
+	margin-right: 1em;
+	text-align: right;
+	float: right;
+} 
+.coverimage a
+{
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #FFF;
+}
+.introduction
+{ 
+	padding-top: 2.4em;
+	margin-left: 1em;
+	line-height: 1;
+	text-align: left;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1em; line-height: .25;}
+.about
+{
+	margin-top: 2.8em;
+	margin-left: 1em;
+	text-align: left;
+}
+.about p { margin-bottom: 0; }
+.about p + p
+{
+	text-indent: 1.4em;
+	margin-top: 0;
+}
+.playinfo
+{
+	margin: 1em 0px 0px 1em;
+}
+.playinfo p {
+	font-size: .75em;
+}
+.links
+{
+	font-size: 0.8em;
+}
+.links li
+{
+	list-style-type: none;
+	list-style-position: default;
+	padding: .4 em;
+}
+ 
+span.filetype { font-size: .75em; }
+.source
+{
+	margin-top: 1.4em;
+	margin-left: 1em;
+	line-height: 1.4;
+}
+.sourceintroduction
+{
+	margin-left: 1em;
+}
+.sourceintroduction h1
+{
+	padding-top: 2.8em;
+	font-size: 1em;
+	line-height: 1;
+	text-align: right;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: italic;
+}
+.sourceintroduction h2
+{
+	display: none;
+}
+.sourcecoverimage
+{
+	margin-top: 1em;
+	margin-left: 1em;
+	text-align: right;
+	float: right;
+} 
+.sourcecoverimage a
+{
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #FFF;
+}
+.sourcebibliography
+{
+	display: none;
+}
+span.quote { color: #369; }
+span.comment {
+	color: #390;}
+span.substitution
+{
+	color: #69B;
+	font-variant: small-caps;
+}
+	
+span.i6code { color: #666; font-family: monospace; }
+span.columnhead { 
+	font-style: italic; 
+	font-size: 1em;
+}
+span.heading
+{
+	font-weight: bold;
+} 
+.source td
+{
+	padding-top: .7em;
+	padding-bottom: .7em;
+	padding-right: 1.4em;
+	font-size: .75em;
+	text-align: left;
+	vertical-align: top;
+} 
+span.notecue
+{
+	font-size: .75em;
+	vertical-align: super;
+}
+.source li
+{
+	list-style-type: none;
+	list-style-position: default;
+}
+.notes
+{
+	margin-left: 16.8em;
+}
+.notes p
+{
+	text-indent: -1.4em;
+	font-size: .75em;
+}
+.notesheading { font-style: italic; }
+p.indent0 
+{	margin-bottom: 0;
+}
+p.indent1 
+{
+	padding-left: 2.8em;
+	text-indent: -.7em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.indent2 
+{	margin-bottom: 0; 
+	padding-left: 5.6em;
+	text-indent: -.7em;
+	margin-top: 0;
+}
+p.indent3 
+{
+	padding-left: 8.4em;
+	text-indent: -.7em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.indent4
+{	margin-bottom: 0; 
+	padding-left: 11.2em;
+	text-indent: -.7em;
+	margin-top: 0;
+}
+p.indent5
+{
+	padding-left: 14em;
+	text-indent: -.7em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.indent6
+{	margin-bottom: 0; 
+	padding-left: 16.8em;
+	text-indent: -.7em;
+	margin-top: 0;
+}
+p.indent7
+{
+	padding-left: 19.6em;
+	text-indent: -.7em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.indent8
+{	margin-bottom: 0; 
+	padding-left: 22.4em;
+	text-indent: -.7em;
+	margin-top: 0;
+}
+p.indent9
+{
+	padding-left: 25.2em;
+	text-indent: -.7em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.play .coverimage
+{
+}
+.play .links
+{
+}
+.interpretercredit
+{
+	bottom: 1em;
+	font-size: 80%;
+	position: fixed;
+}
+#gameport
+{
+	background: white;
+	bottom: 0px;
+	left: 1px;
+	line-height: 1.4;
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+@media screen and (max-device-width: 480px)
+{
+	.coverimage, .introduction, .about, .playinfo, .source, .sourceintroduction, .sourcecoverimage, .notes
+	{
+		float: none;
+		margin-left: 1em;
+		margin-right: 1em;
+		text-align: left;
+	}
+	.play .coverimage, .play .interpretercredit
+	{
+		display: none;
+	}
+	
+	#gameport
+	{
+		left: 0px;
+		width: auto;
+	}
+	#subheader, #subfooter, #subcolumn
+	{
+		width: 320px;
+	}
+	.framelabel, .play .links
+	{
+		font-size: 12px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

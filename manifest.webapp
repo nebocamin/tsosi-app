@@ -1,0 +1,30 @@
+{
+  "version": "16.08",
+  "name": "tsosi",
+  "description": "the secret of smiley island",
+  "launch_path": "/tsosi-app/index.html",
+  "icons": {
+    "16": "/tsosi-app/img/icons/mortar-16.png",
+    "48": "/tsosi-app/img/icons/mortar-48.png",
+    "60": "/tsosi-app/img/icons/mortar-60.png",
+    "90": "/tsosi-app/img/icons/mortar-90.png",
+    "120": "/tsosi-app/img/icons/mortar-120.png",
+    "128": "/tsosi-app/img/icons/mortar-128.png"
+  },
+  "developer": {
+    "name": "stereo",
+    "url": "http://nebocamin.github.com"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/tsosi-app/manifest.appcache",
+  "default_locale": "en",
+  
+  "locales": {
+    "de": {
+      "description": "Von einem der auszog das langweilen zu lernen.",
+      "developer": {
+        "url": "https://github.com/nebocamin/tsosi-app"
+      }
+    }
+  }
+}
